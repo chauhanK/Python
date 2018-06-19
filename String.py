@@ -43,10 +43,13 @@ print(message)
 greeting = "Hello"
 name = "Karan"
 
-#String format
+#Concat using + operator
+message = greeting + ', ' + name + '.' + 'Welcome!'
+
+#Concat using String format
 message = '{}, {}. Welcome!'.format(greeting,name)
 
-#f string
+#Concat using f string
 message = f'{greeting}, {name.upper()}.Welcome!'
 
 print(message)
